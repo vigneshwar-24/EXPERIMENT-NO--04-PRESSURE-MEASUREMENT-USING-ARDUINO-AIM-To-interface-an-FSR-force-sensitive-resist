@@ -48,17 +48,12 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
 
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
+
 ![4](https://user-images.githubusercontent.com/77089276/166479173-3dbaa437-0db8-491c-ade9-9154999d1e6f.png)
 
 
@@ -106,13 +101,13 @@ void loop()
  
  
 
-![image](https://user-images.githubusercontent.com/36288975/163533136-5f8d00f2-8456-4d46-b243-d94d45f83eee.png)
-
 ### TABLE -02 OUTPUT VOLTAGES AND CHANGE IN RESISTANCES
 
+![WhatsApp Image 2022-05-03 at 9 15 13 PM](https://user-images.githubusercontent.com/77089276/166487830-9db8028d-f476-4300-a8b7-88ae35ecf08c.jpeg)
 
 ![5](https://user-images.githubusercontent.com/77089276/166479197-c7aa5cfe-8b62-427d-8b9d-3cda4bfa2cf3.png)
 
+![4](https://user-images.githubusercontent.com/77089276/166479173-3dbaa437-0db8-491c-ade9-9154999d1e6f.png)
 
 
 
