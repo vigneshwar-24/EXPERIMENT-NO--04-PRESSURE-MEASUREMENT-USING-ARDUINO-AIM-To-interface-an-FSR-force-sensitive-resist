@@ -59,6 +59,8 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
+![4](https://user-images.githubusercontent.com/77089276/166479173-3dbaa437-0db8-491c-ade9-9154999d1e6f.png)
+
 
 
 
@@ -76,24 +78,31 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
+ ```c
  
+ int force = 0;
+
+void setup()
+{
+ pinMode(A3, INPUT);
+ pinMode(8, OUTPUT);
+ Serial.begin(9600);
+}
+
+void loop()
+{
+ force = analogRead(A3);
+ int f = map(force,0,512,0,10);
+ Serial.print("Force = ");
+ Serial.println(f);
+ analogWrite(8,force);
+ delay(1000); 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+}
+
+
+
+```
  
  
 
@@ -102,15 +111,7 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 ### TABLE -02 OUTPUT VOLTAGES AND CHANGE IN RESISTANCES
 
 
-
-
-
-
-
-
-
-
-
+![5](https://user-images.githubusercontent.com/77089276/166479197-c7aa5cfe-8b62-427d-8b9d-3cda4bfa2cf3.png)
 
 
 
